@@ -1,2 +1,3 @@
-# cloudops-shift
-An open-source AWS Day-2 CloudOps simulator for learning monitoring, incident response, patch management, infrastructure drift detection, operational automation, and AI-assisted operations through realistic scenarios.
+# aws-aiops-lab
+
+A hands-on open-source lab exploring how AI, observability, automation and agentic systems can detect, investigate, remediate and learn from operational incidents on AWS.
