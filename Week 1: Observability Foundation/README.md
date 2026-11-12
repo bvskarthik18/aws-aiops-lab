@@ -25,3 +25,20 @@ The first version of the workload will use:
 User → Amazon API Gateway → Orders Lambda → Inventory Lambda
 
 I am using a small serverless architecture so I can concentrate on observability and AIOps rather than Infrastructure management.
+
+## First API
+
+The first API will be:
+
+GET /orders/123
+
+The orders service will call the Inventory service to check whether the product is available.
+
+Expected response:
+
+{
+    "order_id": "123",
+    "product": "laptop",
+    "quantity": 1,
+    "inventory_status": "available"
+}
