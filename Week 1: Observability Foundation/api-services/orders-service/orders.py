@@ -14,6 +14,7 @@ from inventory import lambda_handler as inventory_handler
 def lambda_handler(event, context):
 
     start_time = time.perf_counter()
+    time.sleep(1.5)  # Simulate some processing time
     
     # Call the inventory service to get the inventory status for the product
     inventory = inventory_handler({}, None)
